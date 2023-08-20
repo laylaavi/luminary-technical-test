@@ -1,0 +1,212 @@
+body {
+    background-color: transparent;
+    margin: 0px;
+}
+
+.header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    margin: auto 0 auto auto;
+}
+
+.header > .menu > .grid-container {
+    display: grid;
+    justify-content: end;
+    padding: 10px 5px 10px 5px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.material-icons {
+    font-size: 18px;
+}
+
+.content1 {
+    background-image: url(/image/table.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.content1 > .grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: 500px;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.content1 > .grid-container > div > h1 {
+    font-size: 50px;
+}
+
+.content2, .content4 {
+    background-color: white;
+    padding: 30px;
+}
+
+.content3 {
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+
+.content5 {
+    background-color: #f9792e;
+    padding: 30px;
+}
+
+.content2 > .paragraph {
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content3 > .services {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 5%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.content3 > .services > div > .paragraph {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content4 > .blog {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.content4 > .blog > .news {
+    border: 1px solid #f6f6f6;
+}
+
+.content4 > .blog > .news > .blog-content {
+    padding: 0px 20px 20px 20px;
+}
+
+.content4 > .blog > .news > .blog-content > .date {
+    margin-top: -15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.content4 > .blog > .news > .blog-content > .paragraph {
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content4 > .blog > .news > .blog-content > span {
+    color: #f9792e; 
+    text-decoration: underline;
+}
+
+.content4 > .blog > .news > .blog-content > span > div > a {
+    font-size: 12px;
+}
+
+.content5 > h4 {
+    margin-bottom: 30px;
+}
+
+.content5 > p {
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content5 > .footer {
+    display: flex;
+}
+
+.content5 > .footer > .copyright {
+    margin: 30px auto auto 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content5 > .footer > .follow-us {
+    display: flex;
+}
+
+.content5 > div > .follow-us > p {
+    line-height: 30px;
+    margin: 30px 10px auto 0px;
+}
+
+.content5 > div > .follow-us > a > .icon {
+    margin: 30px 5px auto 0;
+    max-width: 30px;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.orange {
+    color: #f9792e;
+}
+
+.white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-orange {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #f9792e;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-white {
+    width: 150px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
